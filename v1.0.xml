@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <default sync-j="4" revision="master"/>
+
+  <remote fetch="https://git.yoctoproject.org/git" name="yocto"/>
+  <remote fetch="https://github.com/FullMetalUpdate/" name="fullmetalupdate" revision="refs/tags/v1.0" />
+  <remote fetch="https://github.com/Freescale" name="freescale"/>
+  <remote fetch="https://github.com/openembedded" name="oe"/>
+  <remote fetch="https://github.com/advancedtelematic" name="advancedtelematic"/>
+  <remote fetch="https://github.com/meta-qt5" name="qt"/>
+
+  <project remote="yocto" revision="5f660914cd7eec8117efccdf1eb29c466b4e74f7" name="poky" path="sources/poky"/>
+  <project remote="oe" revision="eae996301d9c097bcbeb8046f08041dc82bb62f8" name="meta-openembedded" path="sources/meta-openembedded"/>
+  <project remote="advancedtelematic" revision="c87072378ab37e49a794758e8c2054613eda60be" name="meta-updater" path="sources/meta-updater"/>
+  <project remote="fullmetalupdate" name="meta-fullmetalupdate" path="sources/meta-fullmetalupdate"/>
+  <project remote="fullmetalupdate" name="meta-fullmetalupdate-extra" path="sources/meta-fullmetalupdate-extra"/>
+
+  <project remote="qt" revision="rocko" name="meta-qt5" path="sources/meta-qt5"/>
+
+  <project remote="yocto" revision="8e4c537d84fdde8e3b4642d0dda2c0f4af76d52f" name="meta-raspberrypi" path="sources/meta-raspberrypi"/>
+
+</manifest>
