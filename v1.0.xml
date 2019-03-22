@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <default sync-j="4" revision="master"/>
+
+  <remote fetch="https://git.yoctoproject.org/git" name="yocto"/>
+  <remote fetch="https://github.com/FullMetalUpdate/" name="fullmetalupdate" revision="refs/tags/v1.0" />
+  <remote fetch="https://github.com/Freescale" name="freescale"/>
+  <remote fetch="https://github.com/openembedded" name="oe"/>
+  <remote fetch="https://github.com/advancedtelematic" name="advancedtelematic"/>
+  <remote fetch="https://github.com/meta-qt5" name="qt"/>
+
+  <project remote="yocto" revision="5f660914cd7eec8117efccdf1eb29c466b4e74f7" name="poky" path="sources/poky"/>
+  <project remote="oe" revision="eae996301d9c097bcbeb8046f08041dc82bb62f8" name="meta-openembedded" path="sources/meta-openembedded"/>
+  <project remote="advancedtelematic" revision="c87072378ab37e49a794758e8c2054613eda60be" name="meta-updater" path="sources/meta-updater"/>
+  <project remote="fullmetalupdate" name="meta-fullmetalupdate" path="sources/meta-fullmetalupdate"/>
+  <project remote="fullmetalupdate" name="meta-fullmetalupdate-extra" path="sources/meta-fullmetalupdate-extra"/>
+
+  <project remote="qt" revision="d8b531530fa42b59aa0a5b123d87a30d749cbcc4" name="meta-qt5" path="sources/meta-qt5"/>
+
+  <project remote="freescale" revision="70535e13dd2aabbad53243518f4cc5064d284592" name="fsl-community-bsp-base" path="sources/base">
+	<linkfile dest="README" src="README"/>
+	<linkfile dest="setup-environment" src="setup-environment"/>
+  </project>
+
+  <project remote="yocto" revision="3253cecbca4914c3645908e1054b0fffab8039b2" name="meta-freescale" path="sources/meta-freescale"/>
+  <project remote="freescale" revision="e71ace9ede9b58f2ed3381a53fdc814f8e963c60" name="meta-freescale-3rdparty" path="sources/meta-freescale-3rdparty"/>
+  <project remote="freescale" revision="51756d1c2058139c8a21f89b86cfd8007b71b7f0" name="meta-freescale-distro" path="sources/meta-freescale-distro"/>
+
+</manifest>
