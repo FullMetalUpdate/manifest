@@ -5,6 +5,7 @@
 
   <remote fetch="https://git.yoctoproject.org/git" name="yocto"/>
   <remote fetch="https://github.com/FullMetalUpdate/" name="fullmetalupdate"/>
+  <remote fetch="https://github.com/Witekio/" name="witekio"/>
   <remote fetch="https://github.com/Freescale" name="freescale"/>
   <remote fetch="https://github.com/openembedded" name="oe"/>
   <remote fetch="https://github.com/advancedtelematic" name="advancedtelematic"/>
@@ -13,6 +14,7 @@
   <project remote="yocto" revision="rocko" name="poky" path="sources/poky"/>
   <project remote="oe" revision="rocko" name="meta-openembedded" path="sources/meta-openembedded"/>
   <project remote="advancedtelematic" revision="rocko" name="meta-updater" path="sources/meta-updater"/>
+  <project remote="witekio" revision="rocko" name="meta-machinelearning" path="sources/meta-machinelearning"/>
   <project remote="fullmetalupdate" revision="rocko" name="meta-fullmetalupdate" path="sources/meta-fullmetalupdate"/>
   <project remote="fullmetalupdate" revision="rocko" name="meta-fullmetalupdate-extra" path="sources/meta-fullmetalupdate-extra"/>
 
