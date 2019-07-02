@@ -15,12 +15,12 @@
   <project remote="yocto" revision="thud" name="poky" path="sources/poky"/>
   <project remote="oe" revision="thud" name="meta-openembedded" path="sources/meta-openembedded"/>
   <project remote="advancedtelematic" revision="thud" name="meta-updater" path="sources/meta-updater"/>
-  <!-- <project remote="witekio" revision="113519ad5575bcf82cbda58ec87d3cd2348f4175" name="meta-machinelearning" path="sources/meta-machinelearning"/> --->
+  <!-- <project remote="witekio" revision="113519ad5575bcf82cbda58ec87d3cd2348f4175" name="meta-machinelearning" path="sources/meta-machinelearning"/> -->
   <project remote="fullmetalupdate" revision="thud" name="meta-fullmetalupdate" path="sources/meta-fullmetalupdate"/>
   <project remote="fullmetalupdate" revision="thud" name="meta-fullmetalupdate-extra" path="sources/meta-fullmetalupdate-extra"/>
 
   <project remote="qt" revision="thud" name="meta-qt5" path="sources/meta-qt5"/>
 
-  <project remote="mk" revision="stm32mp1-eval" name="meta-st-stm32mp" path="source/meta-st-stm32mp" />
+  <project remote="mk" revision="stm32mp1-eval" name="meta-st-stm32mp" path="sources/meta-st-stm32mp"/>
 
 </manifest>
