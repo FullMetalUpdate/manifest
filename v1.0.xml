@@ -11,11 +11,19 @@
   <remote fetch="https://github.com/advancedtelematic" name="advancedtelematic"/>
   <remote fetch="https://github.com/meta-qt5" name="qt"/>
 
-  <project remote="yocto" revision="thud" name="poky" path="sources/poky"/>
   <project remote="oe" revision="thud" name="meta-openembedded" path="sources/meta-openembedded"/>
   <project remote="advancedtelematic" revision="thud" name="meta-updater" path="sources/meta-updater"/>
   <project remote="witekio" revision="96b1fec68b5e7a7599b6078833bbc63f51692df8" name="meta-machinelearning" path="sources/meta-machinelearning"/>
   <project remote="fullmetalupdate" revision="thud" name="meta-fullmetalupdate" path="sources/meta-fullmetalupdate"/>
   <project remote="fullmetalupdate" revision="thud" name="meta-fullmetalupdate-extra" path="sources/meta-fullmetalupdate-extra"/>
   <project remote="qt" revision="thud" name="meta-qt5" path="sources/meta-qt5"/>
+  <project remote="yocto" revision="thud" name="poky" path="sources/poky"/>
+  <project remote="freescale" revision="thud" name="fsl-community-bsp-base" path="sources/base">
+	<linkfile dest="README" src="README"/>
+	<linkfile dest="setup-environment" src="setup-environment"/>
+  </project>
+  <project remote="yocto" revision="thud" name="meta-freescale" path="sources/meta-freescale"/>
+  <project remote="freescale" revision="thud" name="meta-freescale-3rdparty" path="sources/meta-freescale-3rdparty"/>
+  <project remote="freescale" revision="thud" name="meta-freescale-distro" path="sources/meta-freescale-distro"/>
+
 </manifest>
