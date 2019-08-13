@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <default sync-j="4" revision="master"/>
+
+  <remote fetch="https://git.yoctoproject.org/git" name="yocto"/>
+  <remote fetch="https://github.com/FullMetalUpdate/" name="fullmetalupdate"/>
+  <remote fetch="https://github.com/Witekio/" name="witekio"/>
+  <remote fetch="https://github.com/Freescale" name="freescale"/>
+  <remote fetch="https://github.com/openembedded" name="oe"/>
+  <remote fetch="https://github.com/advancedtelematic" name="advancedtelematic"/>
+  <remote fetch="https://github.com/meta-qt5" name="qt"/>
+
+  <project remote="yocto" revision="rocko" name="poky" path="sources/poky"/>
+  <project remote="oe" revision="rocko" name="meta-openembedded" path="sources/meta-openembedded"/>
+  <project remote="advancedtelematic" revision="rocko" name="meta-updater" path="sources/meta-updater"/>
+  <project remote="witekio" revision="rocko" name="meta-machinelearning" path="sources/meta-machinelearning"/>
+  <project remote="fullmetalupdate" revision="rocko" name="meta-fullmetalupdate" path="sources/meta-fullmetalupdate"/>
+  <project remote="fullmetalupdate" revision="rocko" name="meta-fullmetalupdate-extra" path="sources/meta-fullmetalupdate-extra"/>
+
+  <project remote="qt" revision="rocko" name="meta-qt5" path="sources/meta-qt5"/>
+
+  <project remote="yocto" revision="rocko" name="meta-raspberrypi" path="sources/meta-raspberrypi"/>
+
+</manifest>
