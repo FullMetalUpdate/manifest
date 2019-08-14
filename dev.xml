@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <default sync-j="4" revision="master"/>
+
+  <remote fetch="https://git.yoctoproject.org/git" name="yocto"/>
+  <remote fetch="https://github.com/FullMetalUpdate/" name="fullmetalupdate"/>
+  <remote fetch="https://github.com/Witekio/" name="witekio"/>
+  <remote fetch="https://github.com/Freescale" name="freescale"/>
+  <remote fetch="https://github.com/openembedded" name="oe"/>
+  <remote fetch="https://github.com/advancedtelematic" name="advancedtelematic"/>
+  <remote fetch="https://github.com/meta-qt5" name="qt"/>
+  <remote fetch="https://github.com/STMicroelectronics/" name="stm" />
+
+  <project remote="yocto" revision="thud" name="poky" path="sources/poky"/>
+  <project remote="oe" revision="thud" name="meta-openembedded" path="sources/meta-openembedded"/>
+  <project remote="advancedtelematic" revision="thud" name="meta-updater" path="sources/meta-updater"/>
+  <!-- <project remote="witekio" revision="thud" name="meta-machinelearning" path="sources/meta-machinelearning"/> -->
+  <project remote="fullmetalupdate" revision="thud" name="meta-fullmetalupdate" path="sources/meta-fullmetalupdate"/>
+  <project remote="fullmetalupdate" revision="thud" name="meta-fullmetalupdate-extra" path="sources/meta-fullmetalupdate-extra"/>
+
+  <project remote="qt" revision="thud" name="meta-qt5" path="sources/meta-qt5"/>
+
+  <project remote="stm" revision="thud" name="meta-st-stm32mp" path="sources/meta-st-stm32mp"/>
+
+</manifest>
