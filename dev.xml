@@ -15,7 +15,7 @@
   <project remote="yocto" revision="thud" name="poky" path="sources/poky"/>
   <project remote="oe" revision="thud" name="meta-openembedded" path="sources/meta-openembedded"/>
   <project remote="advancedtelematic" revision="thud" name="meta-updater" path="sources/meta-updater"/>
-  <!-- <project remote="witekio" revision="thud" name="meta-machinelearning" path="sources/meta-machinelearning"/> -->
+  <project remote="witekio" revision="thud" name="meta-machinelearning" path="sources/meta-machinelearning"/>
   <project remote="fullmetalupdate" revision="thud" name="meta-fullmetalupdate" path="sources/meta-fullmetalupdate"/>
   <project remote="fullmetalupdate" revision="thud" name="meta-fullmetalupdate-extra" path="sources/meta-fullmetalupdate-extra"/>
 
