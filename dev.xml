@@ -16,6 +16,7 @@
   <project remote="witekio" revision="dunfell" name="meta-machinelearning" path="sources/meta-machinelearning"/>
   <project remote="fullmetalupdate" revision="dunfell" name="meta-fullmetalupdate" path="sources/meta-fullmetalupdate"/>
   <project remote="fullmetalupdate" revision="dunfell" name="meta-fullmetalupdate-extra" path="sources/meta-fullmetalupdate-extra"/>
+  <project remote="fullmetalupdate" revision="dunfell" name="meta-fullmetalupdate-demo" path="sources/meta-fullmetalupdate-demo"/>
   <project remote="qt" revision="dunfell" name="meta-qt5" path="sources/meta-qt5"/>
   <project remote="yocto" revision="dunfell" name="poky" path="sources/poky"/>
   <project remote="freescale" revision="dunfell" name="fsl-community-bsp-base" path="sources/base">
