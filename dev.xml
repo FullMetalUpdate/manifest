@@ -13,9 +13,10 @@
 
   <project remote="oe" revision="warrior" name="meta-openembedded" path="sources/meta-openembedded"/>
   <project remote="advancedtelematic" revision="warrior" name="meta-updater" path="sources/meta-updater"/>
-  <project remote="witekio" revision="96b1fec68b5e7a7599b6078833bbc63f51692df8" name="meta-machinelearning" path="sources/meta-machinelearning"/>
+  <project remote="witekio" revision="warrior" name="meta-machinelearning" path="sources/meta-machinelearning"/>
   <project remote="fullmetalupdate" revision="warrior" name="meta-fullmetalupdate" path="sources/meta-fullmetalupdate"/>
   <project remote="fullmetalupdate" revision="warrior" name="meta-fullmetalupdate-extra" path="sources/meta-fullmetalupdate-extra"/>
+  <project remote="fullmetalupdate" revision="warrior" name="meta-fullmetalupdate-demo" path="sources/meta-fullmetalupdate-demo"/>
   <project remote="qt" revision="warrior" name="meta-qt5" path="sources/meta-qt5"/>
   <project remote="yocto" revision="warrior" name="poky" path="sources/poky"/>
   <project remote="freescale" revision="warrior" name="fsl-community-bsp-base" path="sources/base">
